@@ -5,6 +5,12 @@ class AuthProvider with ChangeNotifier {
 
   bool get isLoggedIn => _isLoggedIn;
 
+  get userEmail => null;
+
+  get userName => null;
+
+  get user => null;
+
   void login() {
     _isLoggedIn = true;
     notifyListeners();

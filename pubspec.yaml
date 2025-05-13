@@ -24,4 +24,9 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/
+    # Si no tienes imágenes, íconos ni animaciones, elimina o comenta las siguientes líneas
+    # - assets/images/
+    # - assets/icons/
+    # - assets/animations/
+    # Si tienes fuentes personalizadas, asegúrate de que la ruta sea correcta
+    # - assets/fonts/Montserrat-Regular.ttf
